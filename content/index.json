@@ -1,0 +1,11 @@
+[
+  {"slug":"inicio","file":"00-inicio.md","title":"Resumen del proyecto"},
+  {"slug":"robotica-suave","file":"01-robotica-suave.md","title":"Introducción a la robótica suave"},
+  {"slug":"bioingenieria","file":"02-bioingenieria.md","title":"Bioingeniería: la aleta de la tortuga marina"},
+  {"slug":"matlab","file":"03-matlab-fourier.md","title":"Simulación en MATLAB y series de Fourier"},
+  {"slug":"iteraciones","file":"04-iteraciones-fallos.md","title":"Iteraciones, fallos y aprendizajes"},
+  {"slug":"prototipo","file":"05-prototipo-actual.md","title":"Prototipo actual"},
+  {"slug":"neumatica","file":"06-control-neumatico.md","title":"Control neumático: válvulas con servo"},
+  {"slug":"simulacion","file":"07-simulacion-secuencia.md","title":"Simulación de la secuencia"},
+  {"slug":"pendientes","file":"08-pendientes-referencias.md","title":"Pendientes y referencias"}
+]

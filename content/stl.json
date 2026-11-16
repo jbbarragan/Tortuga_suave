@@ -1,0 +1,10 @@
+{
+  "actuales": [
+    {"path":"STL/Inserto_junta_triangular_v9.stl","label":"Inserto junta triangular v9","note":"versión más reciente","color":"#67daca","on":true},
+    {"path":"STL/Inserto_junta_triangular_v7.stl","label":"Inserto junta triangular v7","note":"versión anterior (para comparar)","color":"#ffd578","on":false},
+    {"path":"STL/Molde_junta_triangular_v7.stl","label":"Molde junta triangular v7","note":"molde de la aleta","color":"#8aa4c0","on":false}
+  ],
+  "cople": [
+    {"path":"cople_prototipo.stl","label":"Cople horquilla–maneta","note":"dimensiones provisionales","color":"#ec90b9","on":true}
+  ]
+}
