@@ -1,0 +1,43 @@
+{
+  "source": "https://www.nature.com/articles/s41598-023-37904-5/figures/3",
+  "image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-37904-5/MediaObjects/41598_2023_37904_Fig3_HTML.png",
+  "method": "Color-pixel median per column; least-squares periodic Fourier8 for roll/yaw; robust piecewise-linear fit pitch. Not original coefficients.",
+  "pixel_calibration": {
+    "x_t0": 128.0,
+    "x_t1": 230.3,
+    "y_deg0": 1631.5,
+    "y_deg80": 1296.0
+  },
+  "period_s": 4.3,
+  "phase_boundaries_s": [
+    0,
+    0.82,
+    2.02,
+    2.62,
+    3.47,
+    4.3
+  ],
+  "roll_yaw_fit_pixel_RMSE_deg": [
+    1.7803957282869673,
+    0.8462793009389312
+  ],
+  "pitch_knots_s": [
+    0.0,
+    0.3939387580271099,
+    2.3060801512878357,
+    2.701850785695149,
+    3.0245964299626102,
+    3.660260621071164,
+    4.3
+  ],
+  "pitch_values_deg": [
+    0.0,
+    34.98821556987184,
+    34.98821556987184,
+    0.0,
+    -71.69434685086085,
+    -71.69434685086085,
+    0.0
+  ],
+  "pitch_fit_pixel_RMSE_deg": 1.180374619201392
+}

@@ -1,0 +1,49 @@
+{
+  "implementation": "Independent Python evaluation of same reference and kinematics; MATLAB not executed",
+  "cycle_closure_error_m": 0.0,
+  "positive_yaw_moves_towards_positive_X": true,
+  "pitch_blending_C1_boundary_check": true,
+  "angles_min_deg": [
+    -65.01645369874642,
+    -39.439756907308045,
+    -71.69434685086085
+  ],
+  "angles_max_deg": [
+    72.19283221106566,
+    34.62825144712971,
+    34.98821556987184
+  ],
+  "landmarks_at_phase_boundaries_m": {
+    "RS1_0.0": [
+      -0.06418550930088121,
+      0.16228995175577818,
+      -0.1926208459215489
+    ],
+    "US_0.82": [
+      -0.017119924062744186,
+      0.27671759304613336,
+      -0.11511285318222644
+    ],
+    "RS2_2.02": [
+      0.11263024015241913,
+      0.2198273186405515,
+      0.16862436704267045
+    ],
+    "DS_2.62": [
+      0.15386813321482148,
+      0.14068168861883815,
+      0.1915173215148782
+    ],
+    "SS_3.47": [
+      0.13036361074508107,
+      0.29850668776755335,
+      -0.04003004515991581
+    ],
+    "SS_4.3": [
+      -0.06418550930088121,
+      0.16228995175577818,
+      -0.1926208459215489
+    ]
+  },
+  "not_validated": "Exact anatomical offsets, absolute size, hydrodynamic forces, real robot"
+}
