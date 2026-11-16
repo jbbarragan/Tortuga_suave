@@ -1,0 +1,15 @@
+{
+  "name": "Tortuga suave · reporte",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": { "label": "Reporte Tortuga suave", "onAutoForward": "openPreview" }
+  },
+  "postAttachCommand": "nohup python3 serve.py 8000 > /tmp/reporte.log 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "extensions": ["yzhang.markdown-all-in-one", "Arduino.vscode-arduino-community", "antyos.openscad", "ms-vscode.live-server"],
+      "settings": { "files.associations": { "*.scad": "openscad", "*.ino": "cpp" } }
+    }
+  }
+}

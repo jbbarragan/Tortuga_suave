@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "inicio",
+    "file": "00-inicio.md",
+    "title": "Resumen, objetivo y metodología"
+  },
+  {
+    "slug": "robotica-suave",
+    "file": "01-robotica-suave.md",
+    "title": "Fundamentos de robótica suave"
+  },
+  {
+    "slug": "bioingenieria",
+    "file": "02-bioingenieria.md",
+    "title": "Fundamento biomecánico y bioinspiración"
+  },
+  {
+    "slug": "matlab",
+    "file": "03-matlab-fourier.md",
+    "title": "Modelado cinemático mediante Fourier"
+  },
+  {
+    "slug": "iteraciones",
+    "file": "04-iteraciones-fallos.md",
+    "title": "Iteraciones de fabricación y análisis de fallos"
+  },
+  {
+    "slug": "prototipo",
+    "file": "05-prototipo-actual.md",
+    "title": "Geometría y fabricación del prototipo"
+  },
+  {
+    "slug": "neumatica",
+    "file": "06-control-neumatico.md",
+    "title": "Arquitectura de control neumático"
+  },
+  {
+    "slug": "simulacion",
+    "file": "07-simulacion-secuencia.md",
+    "title": "Simulación del ciclo de actuación"
+  },
+  {
+    "slug": "pendientes",
+    "file": "08-pendientes-referencias.md",
+    "title": "Trabajo futuro y referencias"
+  }
+]
