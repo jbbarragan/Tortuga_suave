@@ -14,4 +14,12 @@ Usa **Iniciar** para correr el ciclo, **Siguiente estado** para avanzar paso a p
 - Entre estados aparecen las dos pausas de 250 ms: cerrar las seis vías y posicionar las válvulas.
 - La vista lateral muestra la elevación producida por la vía P.
 
+<<<<<<< HEAD
 Es una simulación conceptual de las **órdenes** del firmware. No incluye modelo de presión ni del material, y el 50 % de apertura de la válvula es una orden angular, no un 50 % de caudal. El escape común a la atmósfera es indispensable si la bomba impide el retorno del aire.
+=======
+<<<<<<< HEAD
+Es una simulación conceptual de las **órdenes** del firmware. No incluye modelo de presión ni del material, y el 50 % de apertura de la válvula es una orden angular, no un 50 % de caudal. El escape común a la atmósfera es indispensable si la bomba impide el retorno del aire.
+=======
+> [!AVISO] Es una simulación conceptual de las **órdenes** del firmware. No incluye modelo de presión ni del material, y el 50 % de apertura de la válvula es una orden angular, no un 50 % de caudal. El escape común a la atmósfera es indispensable si la bomba impide el retorno del aire.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49

@@ -74,7 +74,15 @@ Las tres vías **no están alineadas**: dos van a los lados y una se desplaza en
 
 Así se evita la flexión incontrolada del primer prototipo: cada vía "tiene un eje", y el movimiento solo ocurre en los ejes que se eligieron al diseñar el inserto.
 
+<<<<<<< HEAD
 La orientación de D (izquierda) y T (derecha) sigue la simulación de la [sección 07](#/simulacion). El sentido físico final depende de cómo se conecte cada vía al servo.
+=======
+<<<<<<< HEAD
+La orientación de D (izquierda) y T (derecha) sigue la simulación de la [sección 07](#/simulacion). El sentido físico final depende de cómo se conecte cada vía al servo.
+=======
+> [!NOTA] La orientación de D (izquierda) y T (derecha) sigue la simulación de la [sección 07](#/simulacion). El sentido físico final depende de cómo se conecte cada vía al servo.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 
 ## El acople servo–válvula
 
@@ -92,7 +100,15 @@ Cada válvula se mueve con un servo. Para unir el *horn* del servo con la maneta
 <figcaption>Vista del acople generada desde el modelo (32.8 × 13.8 × 14 mm).</figcaption>
 </figure>
 
+<<<<<<< HEAD
 Las dimensiones del acople son provisionales (así lo indica el propio `.scad`). Confirmar con calibrador la maneta de la válvula antes de fabricar los diez acoples.
+=======
+<<<<<<< HEAD
+Las dimensiones del acople son provisionales (así lo indica el propio `.scad`). Confirmar con calibrador la maneta de la válvula antes de fabricar los diez acoples.
+=======
+> [!PENDIENTE] Las dimensiones del acople son provisionales (así lo indica el propio `.scad`). Confirmar con calibrador la maneta de la válvula antes de fabricar los diez acoples.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 
 ## Siguiente: cómo se mueve el aire
 

@@ -1,6 +1,18 @@
+<<<<<<< HEAD
 # Trabajo futuro y referencias
 
 ## Programa de validación experimental
+=======
+<<<<<<< HEAD
+# Trabajo futuro y referencias
+
+## Programa de validación experimental
+=======
+# Pendientes y referencias
+
+## Pendientes
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 
 | Prioridad | Tarea | Dónde se refleja |
 |---|---|---|
@@ -30,7 +42,16 @@
 - [Firmware ESP32-S3](Aletas_ESP32S3/Aletas_ESP32S3.ino)
 - [Script MATLAB](Matlab_simulaciones/movimiento_aletas.m)
 - [Video original de la primera prueba, con audio](Fallos_aprendizajes/prueba_aleta_1.mp4)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 
 ## Criterios sugeridos de reporte experimental
 
 Para cada probeta o aleta se recomienda identificar versión de molde e inserto, formulación y lote del elastómero, condiciones de curado, presión de suministro, tiempo de accionamiento, número de ciclos y método de medición. Los resultados deberían presentarse con unidades del SI, repeticiones y variabilidad observada. El contraste entre simulación cinemática y prototipo físico debe distinguir explícitamente los datos medidos de las predicciones y estimaciones.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49

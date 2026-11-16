@@ -1,8 +1,22 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 # Aletas neumáticas bioinspiradas — informe técnico
 
 Aletas neumáticas de silicón (Ecoflex) inspiradas en la tortuga marina, con válvulas de tres posiciones accionadas por servo y control con ESP32-S3.
 
 **Informe técnico con estilo editorial IEEE:** `index.html` (se publica en GitHub Pages y se abre en un Codespace).
+<<<<<<< HEAD
+=======
+=======
+# Tortuga suave
+
+Aletas neumáticas de silicón (Ecoflex) inspiradas en la tortuga marina, con válvulas de tres posiciones accionadas por servo y control con ESP32-S3.
+
+**Reporte completo:** `index.html` (se publica en GitHub Pages y se abre en un Codespace).
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 
 ## Ver el reporte
 
@@ -28,7 +42,15 @@ python3 serve.py 8000
 | Modelos STL del visor 3D | `content/stl.json` |
 | Estilos / scripts | `assets/css`, `assets/js` |
 
+<<<<<<< HEAD
 Las secciones utilizan prosa académica y anotaciones técnicas neutras. El visor STL se inserta con `<div data-stl-viewer="actuales"></div>`. Las figuras se numeran automáticamente por sección en la vista web.
+=======
+<<<<<<< HEAD
+Las secciones utilizan prosa académica y anotaciones técnicas neutras. El visor STL se inserta con `<div data-stl-viewer="actuales"></div>`. Las figuras se numeran automáticamente por sección en la vista web.
+=======
+En los `.md` hay llamadas especiales: `> [!NOTA]`, `> [!AVISO]`, `> [!PENDIENTE]`, `> [!LOGRO]`. Un visor 3D se inserta con `<div data-stl-viewer="actuales"></div>`.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 
 ## Contenido del repositorio
 `STL/` molde e insertos · `cople_*` acople servo–válvula · `Aletas_ESP32S3/` firmware · `Matlab_simulaciones/` cinemática · `Fallos_aprendizajes/` evidencias · `simulacion_aletas.html` secuencia interactiva.

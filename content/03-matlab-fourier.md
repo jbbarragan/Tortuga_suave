@@ -84,6 +84,10 @@ out = movimiento_aletas('agua',false); % sin animación
 
 ## Qué está validado y qué no
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
 La implementación independiente en Python comprobó que el ciclo cierra (error 0), que un yaw positivo mueve la aleta hacia +X y que la suavización de pitch no introduce saltos de velocidad.
 
 `validacion.json` indica que **MATLAB no se ejecutó** en esa comprobación (se usó Python). Falta correr `movimiento_aletas.m` en MATLAB y confirmar que reproduce los mismos resultados.
@@ -93,3 +97,13 @@ No están validados: los desplazamientos anatómicos exactos, el tamaño absolut
 ## Reproducibilidad y alcance del modelo
 
 Los archivos CSV permiten rastrear las series angulares digitalizadas y los datos de reconstrucción utilizados en las representaciones gráficas. El archivo `procedencia.json` documenta la procedencia de la referencia; `validacion.json` describe las comprobaciones realizadas y su alcance. En una evaluación posterior, conviene reportar de manera conjunta error de ajuste, continuidad entre ciclos, incertidumbre de la digitalización y sensibilidad respecto al número de armónicos, antes de usar la trayectoria como referencia experimental de control.
+<<<<<<< HEAD
+=======
+=======
+> [!LOGRO] La implementación independiente en Python comprobó que el ciclo cierra (error 0), que un yaw positivo mueve la aleta hacia +X y que la suavización de pitch no introduce saltos de velocidad.
+
+> [!PENDIENTE] `validacion.json` indica que **MATLAB no se ejecutó** en esa comprobación (se usó Python). Falta correr `movimiento_aletas.m` en MATLAB y confirmar que reproduce los mismos resultados.
+
+> [!AVISO] No están validados: los desplazamientos anatómicos exactos, el tamaño absoluto, las fuerzas hidrodinámicas ni el robot real. Los coeficientes provienen de una imagen y **no son los coeficientes originales** de los autores. Además, `digitalizar_figura.py` lee `fig3_paper.png`, imagen que no está en el repositorio; para repetir la digitalización hay que descargarla desde la fuente indicada en `procedencia.json`.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
+>>>>>>> 348622558d5b2030a604535e15bc167e44b02d49
