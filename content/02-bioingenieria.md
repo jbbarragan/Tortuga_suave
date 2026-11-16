@@ -50,7 +50,11 @@ Una aleta real tiene músculos, huesos y piel. La versión neumática reduce eso
 
 Inflar y desinflar los canales en la secuencia correcta aproxima el lazo de la punta. La correspondencia con los ángulos roll, yaw y pitch es **conceptual**: todavía no se ha medido cuánto se desplaza la punta de la aleta real con cada canal.
 
+<<<<<<< HEAD
 La referencia cinemática se obtuvo digitalizando la Figura 3 del artículo; no son los coeficientes originales de los autores ni una validación hidrodinámica. Qué falta por validar está en la [sección 03](#/matlab).
+=======
+> [!AVISO] La referencia cinemática se obtuvo digitalizando la Figura 3 del artículo; no son los coeficientes originales de los autores ni una validación hidrodinámica. Qué falta por validar está en la [sección 03](#/matlab).
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
 
 ## Referencias de esta sección
 

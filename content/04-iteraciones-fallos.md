@@ -20,7 +20,11 @@ El video muestra la aleta conectada con manguera al banco neumático (regulador 
 <figcaption>Prueba de la primera aleta (sin audio, 1 min). En lugar de una flexión controlada se ven abombamientos locales cuando entra el aire.</figcaption>
 </figure>
 
+<<<<<<< HEAD
 La descripción del video es una lectura de lo que se ve en él. Si recuerdas con exactitud la presión usada y en qué punto falló la aleta, agrégalo aquí para dejar el registro completo.
+=======
+> [!NOTA] La descripción del video es una lectura de lo que se ve en él. Si recuerdas con exactitud la presión usada y en qué punto falló la aleta, agrégalo aquí para dejar el registro completo.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
 
 ## Problema 1: adherencia entre dos vaciados
 
@@ -51,4 +55,8 @@ El primer molde tenía hileras de **cubos** para formar cámaras en la aleta. Lo
 
 ## Qué sigue
 
+<<<<<<< HEAD
 Documentar con video la primera prueba de la aleta fabricada con el molde e inserto actuales, con su presión de operación y el ángulo logrado, y compararla con las fases de la simulación.
+=======
+> [!PENDIENTE] Documentar con video la primera prueba de la aleta fabricada con el molde e inserto actuales, con su presión de operación y el ángulo logrado, y compararla con las fases de la simulación.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834

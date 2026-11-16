@@ -54,9 +54,15 @@ Proceso general de colada con este tipo de silicón:
 3. Verter en el molde con el inserto que forma las vías de aire.
 4. Curar el tiempo indicado por la ficha del fabricante y desmoldar.
 
+<<<<<<< HEAD
 Anotar aquí el grado exacto de Ecoflex usado (00-10, 00-30, 00-50…), el tiempo de curado real y si se desgasifica al vacío. Son datos que hacen reproducible la aleta.
 
 El silicón ya curado se pega mal a silicón curado. Ese detalle fue la causa de la primera falla, y se explica en la [sección 04](#/iteraciones).
+=======
+> [!PENDIENTE] Anotar aquí el grado exacto de Ecoflex usado (00-10, 00-30, 00-50…), el tiempo de curado real y si se desgasifica al vacío. Son datos que hacen reproducible la aleta.
+
+> [!AVISO] El silicón ya curado se pega mal a silicón curado. Ese detalle fue la causa de la primera falla, y se explica en la [sección 04](#/iteraciones).
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
 
 ## Referencias de esta sección
 

@@ -3,6 +3,10 @@
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const main = $('#content'), toc = $('#toc'), sidebar = $('#sidebar'), menuBtn = $('#menu-btn');
+<<<<<<< HEAD
+=======
+  const REPO_EDIT = 'https://github.com/jbbarragan/Tortuga_suave/edit/main/content/';
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
   let pages = [], stlSets = {};
   const cache = {};
 
@@ -15,6 +19,7 @@
     toc.innerHTML = pages.map(p => `<li><a href="#/${p.slug}" data-slug="${p.slug}">${p.title}</a></li>`).join('');
   }
 
+<<<<<<< HEAD
   function decorate(root) {
     // Tablas con scroll horizontal
     root.querySelectorAll('table').forEach(t => { const w = document.createElement('div'); w.className = 'table-wrap'; t.replaceWith(w); w.appendChild(t); });
@@ -35,6 +40,22 @@
     root.querySelectorAll('.table-wrap').forEach(w => {
       tableNumber += 1;
       w.setAttribute('aria-label', `Tabla ${tableNumber}`);
+=======
+  const CALLOUTS = { NOTA: 'note', AVISO: 'warn', PENDIENTE: 'todo', LOGRO: 'ok' };
+  function decorate(root) {
+    // Tablas con scroll horizontal
+    root.querySelectorAll('table').forEach(t => { const w = document.createElement('div'); w.className = 'table-wrap'; t.replaceWith(w); w.appendChild(t); });
+    // Llamadas  > [!NOTA] Texto
+    root.querySelectorAll('blockquote').forEach(bq => {
+      const p = bq.querySelector('p'); if (!p) return;
+      const m = p.innerHTML.match(/^\s*\[!(NOTA|AVISO|PENDIENTE|LOGRO)\]\s*/i);
+      if (!m) return;
+      const kind = m[1].toUpperCase();
+      bq.classList.add(CALLOUTS[kind]);
+      p.innerHTML = p.innerHTML.slice(m[0].length);
+      const tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = kind;
+      bq.prepend(tag);
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
     });
     // Ids en encabezados
     root.querySelectorAll('h2,h3').forEach(h => { h.id = h.id || slugify(h.textContent); });
@@ -64,7 +85,12 @@
     try {
       const md = await getText('content/' + page.file);
       window.STLViewer && window.STLViewer.disposeAll();
+<<<<<<< HEAD
       main.innerHTML = marked.parse(md, { gfm: true }) + pager(i);
+=======
+      main.innerHTML = marked.parse(md, { gfm: true }) + pager(i) +
+        `<p class="edit"><a href="${REPO_EDIT}${page.file}">✎ Editar esta página en GitHub</a></p>`;
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
       decorate(main);
       document.title = page.title + ' · Tortuga suave';
       if (anchor) { const t = document.getElementById(anchor); t ? t.scrollIntoView() : window.scrollTo(0, 0); } else window.scrollTo(0, 0);

@@ -34,7 +34,11 @@ Cada servo gira su válvula entre tres posiciones, de modo que **una misma válv
 
 En reposo (paro) las válvulas quedan a 90° con la bomba apagada y el escape abierto: nada queda presurizado.
 
+<<<<<<< HEAD
 Los pulsos 1000 / 1250 / 1500 µs del firmware son valores provisionales para un servo de 180°. Cada válvula debe calibrarse por separado (posiciones físicas 0/45/90). Si un servo está invertido, se invierte la fila de calibración de esa válvula, no se intercambian canales.
+=======
+> [!AVISO] Los pulsos 1000 / 1250 / 1500 µs del firmware son valores provisionales para un servo de 180°. Cada válvula debe calibrarse por separado (posiciones físicas 0/45/90). Si un servo está invertido, se invierte la fila de calibración de esa válvula, no se intercambian canales.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
 
 ## Secuencia de inflado y desinflado
 
@@ -82,7 +86,11 @@ Elegimos mover válvulas de tres posiciones con servos en lugar de usar una elec
 | Posiciones | 2 (abre/cierra) | 3 (cerrada, bomba, escape) en un solo dispositivo |
 | Requisito | Driver por bobina | Un canal PWM por servo |
 
+<<<<<<< HEAD
 Falta registrar los números de esta comparación: masa de la válvula con su servo contra el solenoide equivalente, caudal y presión medidos. Con esos datos esta tabla pasa de argumento de diseño a resultado.
+=======
+> [!PENDIENTE] Falta registrar los números de esta comparación: masa de la válvula con su servo contra el solenoide equivalente, caudal y presión medidos. Con esos datos esta tabla pasa de argumento de diseño a resultado.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
 
 El único solenoide que permanece es el **escape común** 2/2 normalmente abierto, que al estar abierto sin energía deja el sistema despresurizado ante cualquier falla.
 
@@ -96,7 +104,11 @@ El único solenoide que permanece es el **escape común** 2/2 normalmente abiert
 | Trasera derecha | 2 | 2 |
 | **Total** | | **10** |
 
+<<<<<<< HEAD
 El firmware actual (`Aletas_ESP32S3.ino`) controla **6 servos**: las dos aletas delanteras, con las tres vías T, P, D cada una, moviéndose en espejo (`pos[i%3]`). Los 4 servos de las aletas traseras todavía no están en el código: hay que ampliar el arreglo `SERVO[]`, la tabla de pulsos y la secuencia para los 10 canales.
+=======
+> [!AVISO] El firmware actual (`Aletas_ESP32S3.ino`) controla **6 servos**: las dos aletas delanteras, con las tres vías T, P, D cada una, moviéndose en espejo (`pos[i%3]`). Los 4 servos de las aletas traseras todavía no están en el código: hay que ampliar el arreglo `SERVO[]`, la tabla de pulsos y la secuencia para los 10 canales.
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
 
 ## Pines y seguridad del firmware
 
@@ -115,7 +127,10 @@ El firmware actual (`Aletas_ESP32S3.ino`) controla **6 servos**: las dos aletas 
 - PWM de 50 Hz con 14 bits de resolución (LEDC de Arduino-ESP32 3.x).
 
 El código completo está en [`Aletas_ESP32S3/Aletas_ESP32S3.ino`](Aletas_ESP32S3/Aletas_ESP32S3.ino).
+<<<<<<< HEAD
 
 ## Consideraciones para la validación del sistema neumático
 
 Para caracterizar el conjunto se recomienda registrar, con una referencia temporal común, presión de salida de la bomba, presión de cada vía, corriente de los actuadores y posición efectiva de los servomotores. También se debe comprobar la condición de despresurización del sistema ante pérdida de energía, bloqueo de una válvula o activación del paro. Las posiciones angulares especifican la selección de un paso de aire; no determinan por sí solas la fracción real del caudal ni la presión resultante en la cámara.
+=======
+>>>>>>> 7becdd6392672aaff77769c75e5f0a4774b02834
